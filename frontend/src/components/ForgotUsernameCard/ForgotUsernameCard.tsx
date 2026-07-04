@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ForgotUsernameCard.css";
 
 const ForgotUsernameCard = () => {
@@ -22,10 +23,9 @@ const ForgotUsernameCard = () => {
         <button className="sendButton">
           Send Username
         </button>
-
-        <div className="links">
-          <a href="#">Back to Login</a>
-        </div>
+            <div className="links">
+          <Link to="/">Back to Login</Link>
+        </div>     
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./RegisterCard.css";
 
 const RegisterCard = () => {
@@ -33,7 +34,7 @@ const RegisterCard = () => {
         <button className="registerButton">Register</button>
 
         <div className="links">
-          <a href="#">Already have an account?</a>
+          <Link to="/">Already have an account?</Link>
         </div>
       </div>
     </div>
