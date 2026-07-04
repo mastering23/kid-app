@@ -1,0 +1,91 @@
+.registerCard {
+  width: 100%;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #333943;
+  border-radius: 25px;
+
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.registerCard__formSection {
+  width: 450px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: #2b303a;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.inputGroup label {
+  width: 120px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.inputGroup input {
+  flex: 1;
+  height: 40px;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.registerButton {
+  margin-top: 20px;
+
+  height: 55px;
+  width: 100%;
+
+  background-color: #4cafef;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  opacity: 0.9;
+}
+
+.links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

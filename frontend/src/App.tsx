@@ -1,8 +1,10 @@
 import LoginCard from "./components/LoginCard/LoginCard";
+import RegisterCard from "./components/RegisterCard/RegisterCard";
 
 function App() {
   return (
-    <LoginCard />
+    // <LoginCard />
+    <RegisterCard />
   );
 }
 
