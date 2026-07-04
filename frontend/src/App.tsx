@@ -1,13 +1,9 @@
-import './App.css'
+import LoginCard from "./components/LoginCard/LoginCard";
 
 function App() {
-  
-
   return (
-    <div>
-      <h1>Hello Engel</h1>
-    </div>
-  )
+    <LoginCard />
+  );
 }
 
-export default App
+export default App;
