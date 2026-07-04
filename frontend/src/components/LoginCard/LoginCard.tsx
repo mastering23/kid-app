@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./LoginCard.css";
 import learnPlayImage from "./assets/learn-play.png";
 
@@ -15,30 +16,22 @@ const LoginCard = () => {
       <div className="loginCard__formSection">
         <div className="inputGroup">
           <label htmlFor="username">Login</label>
-          <input
-            id="username"
-            type="text"
-          />
+          <input id="username" type="text" />
         </div>
 
         <div className="inputGroup">
           <label htmlFor="password">Password</label>
-          <input
-            id="password"
-            type="password"
-          />
+          <input id="password" type="password" />
         </div>
 
-        <button className="signInButton">
-          Sign in
-        </button>
+        <button className="signInButton">Sign in</button>
 
         <div className="links">
-          <a href="#">Forgot Password</a>
+          <Link to="/forgot-password">Forgot Password</Link>
           <span>|</span>
-          <a href="#">Forgot Username</a>
+          <Link to="/forgot-username">Forgot Username</Link>
           <span>|</span>
-          <a href="#">First Time User</a>
+          <Link to="/register">First Time User</Link>
         </div>
       </div>
     </div>

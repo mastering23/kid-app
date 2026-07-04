@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ForgotPasswordCard.css";
 
 const ForgotPasswordCard = () => {
@@ -12,19 +13,13 @@ const ForgotPasswordCard = () => {
 
         <div className="inputGroup">
           <label htmlFor="email">Email</label>
-          <input
-            id="email"
-            type="email"
-            placeholder="Enter your email"
-          />
+          <input id="email" type="email" placeholder="Enter your email" />
         </div>
 
-        <button className="resetButton">
-          Send Reset Link
-        </button>
+        <button className="resetButton">Send Reset Link</button>
 
         <div className="links">
-          <a href="#">Back to Login</a>
+          <Link to="/">Back to Login</Link>
         </div>
       </div>
     </div>
